@@ -1,5 +1,25 @@
-﻿/*----------------------------------------------------------------
-    Copyright (C) 2016 Senparc
+﻿#region Apache License Version 2.0
+/*----------------------------------------------------------------
+
+Copyright 2025 Jeffrey Su & Suzhou Senparc Network Technology Co.,Ltd.
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file
+except in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the
+License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND,
+either express or implied. See the License for the specific language governing permissions
+and limitations under the License.
+
+Detail: https://github.com/JeffreySu/WeiXinMPSDK/blob/master/license.md
+
+----------------------------------------------------------------*/
+#endregion Apache License Version 2.0
+
+/*----------------------------------------------------------------
+    Copyright (C) 2025 Senparc
     
     文件名：DeviceManageResultJson.cs
     文件功能描述：设备管理返回结果
@@ -30,10 +50,10 @@ namespace Senparc.Weixin.MP.AdvancedAPIs.ShakeAround
         /// 申请的批次ID，可用在“查询设备列表”接口按批次查询本次申请成功的设备ID。
         /// </summary>
         public long apply_id { get; set; }
-        /// <summary>
-        /// 指定的设备ID列表
-        /// </summary>
-        public List<DeviceApply_Data_Device_Identifiers> device_identifiers { get; set; }
+        ///// <summary>
+        ///// 指定的设备ID列表
+        ///// </summary>
+        //public List<DeviceApply_Data_Device_Identifiers> device_identifiers { get; set; }
         /// <summary>
         /// 审核状态。0：审核未通过、1：审核中、2：审核已通过；审核会在三个工作日内完成
         /// </summary>
